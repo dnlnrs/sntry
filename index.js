@@ -1,3 +1,3 @@
-const Watchman = require('./Watchman')
+const Watchman = require('./src/Watchman')
 
 module.exports = Watchman
