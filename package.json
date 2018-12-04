@@ -1,9 +1,12 @@
 {
   "name": "sntry",
   "version": "0.0.1",
-  "description": "A simple ACL implementation for Node.js and express.",
+  "description": "Sntry (/ˈsɛntɹɪ/) is a small ACL middlware for express that protects your routes.",
   "main": "index.js",
-  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dnlnrs/sntry.git"
+  },
   "author": "Daniele Lenares <daniele.lenares@gmail.com>",
   "license": "MIT"
 }
