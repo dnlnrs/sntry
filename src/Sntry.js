@@ -1,6 +1,6 @@
 const Suspect = require('./Suspect')
 
-class Watchman {
+class Sntry {
   constructor (abilities) {
     this.abilities = abilities
 
@@ -19,7 +19,7 @@ class Watchman {
   }
 
   check (req, res, next) {
-    if (!this.abilities) throw new Error('Watchman needs some abilities to check.')
+    if (!this.abilities) throw new Error('Sntry needs some abilities to check.')
     const suspect = new Suspect(this.abilities, this.userRole || req.user.role)
     if (!suspect.can(req.path, req.method.toLowerCase())) {
       const err = new Error('Not authorized!')
@@ -30,4 +30,4 @@ class Watchman {
   }
 }
 
-module.exports = Watchman
+module.exports = Sntry

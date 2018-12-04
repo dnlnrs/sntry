@@ -1,3 +1,3 @@
-const Watchman = require('./src/Watchman')
+const Sntry = require('./src/Sntry')
 
 module.exports = Watchman

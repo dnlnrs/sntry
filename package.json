@@ -1,7 +1,7 @@
 {
-  "name": "watchman",
+  "name": "sntry",
   "version": "0.0.1",
-  "description": "",
+  "description": "A simple ACL implementation for Node.js and express.",
   "main": "index.js",
   "scripts": {},
   "author": "Daniele Lenares <daniele.lenares@gmail.com>",
